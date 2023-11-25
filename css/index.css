@@ -139,6 +139,15 @@ h2 span {
   text-align: justify;
   margin-bottom: 5px;
 }
+.fontColumns {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+}
+.titleColumns {
+  margin: 10px auto 10px 0;
+  text-decoration: underline;
+}
 .destaque {
   color: blue;
 }
