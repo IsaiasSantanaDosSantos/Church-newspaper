@@ -220,4 +220,5 @@ li::before {
   font-style: italic;
 }
 .carimbo {
+  width: 100%;
 }
