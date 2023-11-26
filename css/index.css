@@ -148,6 +148,9 @@ h2 span {
   margin: 10px auto 10px 0;
   text-decoration: underline;
   font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .destaque {
   color: blue;
@@ -245,4 +248,9 @@ td {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 5px;
+}
+.eyesImg {
+  width: 24px;
+  margin-right: 40px;
+  transform: rotate(-12deg);
 }
