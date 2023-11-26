@@ -222,3 +222,27 @@ li::before {
 .carimbo {
   width: 100%;
 }
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #000;
+}
+.borde-none {
+  border: none;
+}
+.tableBg {
+  background-image: url(/img/riscos.png);
+  background-position: center;
+  background-size: cover;
+}
+.lastText {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
