@@ -137,12 +137,12 @@ h2 span {
 }
 .textColumns {
   text-align: justify;
-  margin-bottom: 5px;
 }
 .fontColumns {
   font-size: 13px;
   font-weight: bold;
   font-style: italic;
+  margin-top: 5px;
 }
 .titleColumns {
   margin: 10px auto 10px 0;
@@ -197,7 +197,6 @@ ul {
 li {
   margin-left: 16px;
   position: relative;
-  margin-bottom: 5px;
 }
 li::before {
   content: "\2713";
@@ -222,8 +221,15 @@ li::before {
   padding: 0 7px;
   font-style: italic;
 }
-.carimbo {
+a {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carimbo {
+  width: 60%;
+  margin: 0 auto;
 }
 table {
   border-collapse: collapse;
