@@ -15,6 +15,7 @@ body * {
   display: flex;
   justify-content: space-between;
   position: relative;
+  border: 1px solid #00000014;
 }
 .centralBar {
   position: absolute;
@@ -69,7 +70,7 @@ h2 {
   font-family: "Times New Roman", Times, serif;
   width: 100%;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h2 span {
@@ -156,8 +157,9 @@ h2 span {
   color: blue;
 }
 .bigText {
-  text-align: 17px;
+  font-size: 17px;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 .pagesFooter {
   position: absolute;
@@ -197,6 +199,7 @@ ul {
 li {
   margin-left: 16px;
   position: relative;
+  margin-bottom: 5px;
 }
 li::before {
   content: "\2713";
@@ -233,30 +236,37 @@ a {
 }
 table {
   border-collapse: collapse;
-  margin-top: 15px;
+  width: 77%;
+  margin: 12px auto;
+  text-transform: uppercase;
 }
 
 td {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   text-align: center;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
-.borde-none {
+/* .borde-none {
   border: none;
 }
 .tableBg {
   background-image: url(/img/riscos.png);
   background-position: center;
   background-size: cover;
-}
-.lastText {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
+} */
 .eyesImg {
   width: 24px;
   margin-right: 40px;
   transform: rotate(-12deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.newContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
 }
