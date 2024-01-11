@@ -237,7 +237,7 @@ a {
 table {
   border-collapse: collapse;
   width: 77%;
-  margin: 12px auto;
+  margin: 5px auto 0;
   text-transform: uppercase;
 }
 
@@ -269,4 +269,17 @@ td {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
+}
+.infoLastVersion {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 6px auto 4px;
+  text-align: center;
+}
+.lastDiv {
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
 }
