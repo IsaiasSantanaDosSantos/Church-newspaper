@@ -81,7 +81,7 @@ h2 span {
   right: 10px;
 }
 .capa-image {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .pagesContent {
@@ -107,7 +107,7 @@ h2 span {
   justify-content: space-between;
   align-items: end;
   position: relative;
-  line-height: 18px;
+  line-height: 21px;
 }
 .indiceTextBox span {
   position: absolute;
@@ -128,7 +128,7 @@ h2 span {
   border-top: 2px solid;
   border-bottom: 2px solid;
   padding: 3px 0 2px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 .arrowImg {
   width: 15px;
